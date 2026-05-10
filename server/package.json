@@ -1,0 +1,19 @@
+{
+  "name": "autobuild-server",
+  "version": "1.0.0",
+  "description": "Backend server for AutoBuild - Low-Code dApp Builder for Autonomys",
+  "main": "server.cjs",
+  "scripts": {
+    "start": "node server.cjs",
+    "dev": "node --watch server.cjs"
+  },
+  "dependencies": {
+    "@autonomys/auto-drive": "^1.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.2",
+    "express": "^4.19.2",
+    "solc": "^0.8.26",
+    "sqlite3": "^5.1.7"
+  }
+}

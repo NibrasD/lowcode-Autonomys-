@@ -1,0 +1,25 @@
+{
+  "name": "subai",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && cd server && npm install",
+    "start": "cd server && npm start",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.2",
+    "vite": "^8.0.10"
+  },
+  "dependencies": {
+    "@autonomys/auto-drive": "^1.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.2",
+    "express": "^4.19.2",
+    "solc": "^0.8.26",
+    "sqlite3": "^5.1.7"
+  }
+}
